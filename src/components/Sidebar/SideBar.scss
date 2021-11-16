@@ -1,0 +1,38 @@
+.sidebar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+    
+    &__is-active {
+     background-color: rgba(255, 255, 255, 0.5);
+    }
+
+   &__navBtn {
+       list-style-type: none;
+       text-decoration: none;
+   }
+
+    &__text {
+        display: block;
+        width: 150px;
+        text-decoration: none;
+        text-align: center;
+        list-style-type: none;
+        margin: 0 20px 0 20px;
+        border: 2px solid #d4d4d4;
+        border-radius: 12px;
+        color: #02030a;
+        font-size: 25px;
+        font-weight: 600;
+      }
+
+      &__text:hover {
+        text-decoration: none;
+        color: white;
+        background-color: #23116b;
+      }
+}
+
+

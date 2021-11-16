@@ -1,0 +1,55 @@
+.block {
+  max-height: 120px;
+}
+// .invizible {
+//   height: 120px;
+//   background-color: yellow;
+// }
+
+.navbar {
+  
+    border-bottom: solid 2px rgba(9, 9, 49, 0.5);
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.2)
+    );
+    animation: background 25s infinite alternate;
+    &__sidebar-menu{
+        color: black;
+    }
+  }
+
+  @keyframes background {
+    100% {
+      background:  rgba(115, 184, 189, 0.2);
+      box-shadow: 0 -200px 100px -100px rgba(23, 8, 107, 0.2) inset;
+    }
+
+
+}
+
+
+.logo {
+    width: 202px;
+    height: 85px;
+  }
+
+.registration-create {
+    display: none;
+    border: 2px solid #d4d4d4;
+    border-radius: 12px;
+    color: #02062e;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+.registration-create:hover {
+    color: white;
+    background-color: #140a3d;
+  }
+
+
+ 

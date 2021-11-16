@@ -1,0 +1,64 @@
+$background-color: tomato;
+$white-color: white;
+$color-over: rgba(0, 0, 0, 0.7);
+
+.modalOverlay {
+  background-color: $color-over;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modalwindow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $background-color;
+  min-height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__header {
+    color: green;
+    min-height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgb(187, 49, 25);
+    padding: 10px 20px;
+  }
+
+  &__title {
+    font-weight: bold;
+    color: $white-color;
+    text-align: center;
+  }
+
+  &__body,
+  &__footer {
+    color: $white-color;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color;
+  }
+  &__footer button:last-child {
+    margin-left: 10px;
+  }
+}
+
+.modal-close {
+  &__cross {
+    color: $white-color;
+    cursor: pointer;
+    font-size: 20px;
+  }
+}

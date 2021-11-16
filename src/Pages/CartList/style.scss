@@ -1,0 +1,38 @@
+.container {
+  width: 290px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  @media (min-width: 481px) {
+    width: 461px;
+  }
+  @media (min-width: 685px) {
+    width: 664px;
+  }
+  @media (min-width: 993px) {
+    width: 972px;
+  }
+  @media (min-width: 1181px) {
+    width: 1160px;
+  }
+  @media (min-width: 1199px) {
+    width: 1180px;
+  }
+}
+
+.albums {
+  &__cart-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 20px 0 20px 0;
+  }
+}
+.pay {
+  text-align: start;
+  font-size: 30px;
+  color: white;
+  margin-left: 520px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}

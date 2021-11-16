@@ -1,0 +1,21 @@
+.container-form {
+    margin: 0 auto;
+    max-width: 100vh;
+    max-height: 100vh;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.input {
+    justify-content: space-between;
+    align-items: flex-end;
+    align-items: center;
+}
+.input-enter {
+    align-items: flex-end;
+}
